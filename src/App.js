@@ -18,7 +18,7 @@ function App() {
       </div>
 
       {/* Bottom Section */}
-      <div className='section' id='contact'>
+      <div className='section contact' id='contact'>
         <div className='bg-text'>
           <p><span className='bold'>TEL:</span> 07946 806655</p>
           <p><span className='bold'>EMAIL:</span> hello@destinyreadings.co.uk</p>

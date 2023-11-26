@@ -22,6 +22,7 @@ body, html {
 
 .bg-text {
   color: #B0A15C;
+  word-wrap: normal;
 }
 
 .bg-text h1 {
@@ -70,3 +71,49 @@ button:hover {
   text-decoration: none;
   color: #B0A15C;
 } */
+
+@media screen and (max-width: 400px) {
+  .contact {
+    padding: 1em;
+  }
+  .bg-text h1 {
+    font-family: 'Forum', serif;
+    font-size: 40px;
+  }
+  .bg-text p {
+    padding: .5rem 0;
+    font-size: 20px;
+  }
+  
+  .bg-text p .bold {
+    font-weight: 600;
+  }
+  
+  .dr__ltr {
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    font-size: 30px;
+    font-family: serif;
+  }
+  
+  .d__ltr {
+    padding-bottom: .4em;
+  }
+  
+  .r__ltr {
+    margin-top: .4em;
+  }
+  
+  button {
+    padding: .5em;
+    background-color: #B0A15C;
+    color: #B9CBCD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #b7a34c;
+  }
+}
