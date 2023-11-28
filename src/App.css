@@ -4,7 +4,9 @@
   --gold-one: #B0A15C;
   --gold-two: #b7a34c;
   --bg-one: #B9CBCD;
-  --bg-two: rgb(188, 212, 212);
+  --bg-two: #bcd4d4;
+  /* --bg-one: #f7f7f7;
+  --bg-two: #a5c5c9; */
 }
 
 *, *::after, *::before {
@@ -15,17 +17,22 @@
 
 body, html {
   min-height: 100%;
-  background-color: var(--bg-one);
+  /* background-color: var(--bg-one); */
+  background-image: linear-gradient(to bottom right, var(--bg-one), var(--bg-two));
   scroll-behavior: smooth;
 }
 
 .section {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   text-align: center;
+}
+
+.container {
+  
 }
 
 .bg-text {
