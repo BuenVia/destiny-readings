@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       {/* Top Section */}
       <div className='section'>
-        <div className='bg-text'>
+        <div className='bg-text card'>
           <h1>Destiny Reading's</h1>
           <p>Tarot, Oracle Readings</p>
           <p>Afternoon Tarot Tea Parties</p>

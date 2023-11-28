@@ -26,6 +26,20 @@ body, html {
   word-wrap: normal;
 }
 
+.card {
+  width: 60%;
+  padding: 5em;
+  border: 12px solid #B0A15C;
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px 2px #bbbbbb;
+}
+
+.card:hover {
+  transition: .5s;
+  border: 12px solid linear-gradient(to right, #b7a34c, #B0A15C);
+  box-shadow: 4px 4px 7px 5px #bababa;
+}
+
 .bg-text h1 {
   font-family: 'Forum', serif;
   font-size: 80px;
