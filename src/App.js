@@ -6,10 +6,10 @@ function App() {
       {/* Top Section */}
       <div className='section'>
         <div className='bg-text card'>
-          <h1>Destiny Reading's</h1>
-          <p>Tarot, Oracle Readings</p>
-          <p>Afternoon Tarot Tea Parties</p>
-          <div className='dr__ltr'>
+          <h1 className='heading'>Destiny Reading's</h1>
+          <p className='scroll'>Tarot, Oracle Readings</p>
+          <p className='scroll'>Afternoon Tarot Tea Parties</p>
+          <div className='dr__ltr scroll'>
             <span className='d__ltr'>D</span>
             <span className='r__ltr'>R</span>
           </div>
@@ -20,13 +20,13 @@ function App() {
       {/* Bottom Section */}
       <div className='section contact' id='contact'>
         <div className='bg-text'>
-          <p><span className='bold'>TEL:</span> 07946 806655</p>
-          <p><span className='bold'>EMAIL:</span> hello@destinyreadings.co.uk</p>
-          <div className='dr__ltr'>
+          <p className='contact__details'><span className='bold'>tel:</span> 07946 806655</p>
+          <p className='contact__details'><span className='bold'>email:</span> hello@destinyreadings.co.uk</p>
+          <div className='dr__ltr scroll'>
             <span className='d__ltr'>D</span>
             <span className='r__ltr'>R</span>
           </div>
-          <p>"Bring me your concerns and together we will find a way forward"</p>
+          <p className='scroll'>"Bring me your concerns and together we will find a way forward"</p>
         </div>
       </div>
 
